@@ -1,0 +1,89 @@
+body {
+  background: white;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 40px;
+}
+.logo{
+    background-size: cover;
+    height: 50px;
+    width: 150px;
+}
+.signup-container {
+  background: white;
+  padding: 30px 40px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  max-width: 350px;
+  width: 100%;
+}
+
+.signup-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+form label {
+  display: block;
+  font-weight: bold;
+  margin: 12px 0 4px;
+  font-size: 14px;
+}
+
+form input {
+  width: 100%;
+  padding: 10px;
+  font-size: 14px;
+  border: 1px solid #a6a6a6;
+  border-radius: 3px;
+}
+
+form button {
+  margin-top: 20px;
+  width: 100%;
+  padding: 10px;
+  background-color: #f0c14b;
+  border: 1px solid #a88734;
+  border-radius: 3px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+form button:hover {
+  background-color: #e2b33b;
+}
+
+.terms {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+.terms a {
+  color: #0066c0;
+  text-decoration: none;
+}
+
+.terms a:hover {
+  text-decoration: underline;
+}
+
+hr {
+  margin: 20px 0;
+  border: none;
+  border-top: 1px solid #ddd;
+}
+
+.signin-link {
+  font-size: 13px;
+  text-align: center;
+}
+
+.signin-link a {
+  color: #0066c0;
+  text-decoration: none;
+}
+
+.signin-link a:hover {
+  text-decoration: underline;
+}

@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.nav-logo{
+    height: 50px;
+    width: 100px;
+}
+.log{
+    background-image: url(images/logo.png);
+    background-size: cover;
+    height: 45px;
+    width: 95px;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1px white solid;
+}
+.icon{
+    display: flex;
+    align-items: center;
+}
+#one{
+    color: #cccccc;
+    margin-left: 15px;
+    font-size: 0.85 rem;
+}
+#two{
+    margin-left: 5px;
+    font-size: 1 rem;
+}
+.nav-search{
+    display: flex;
+    width: 680px;
+    
+}
+.nav-search:hover{
+    border: 1px solid orange;
+}
+.search-all{
+    height: 40px;
+    width: 50px;
+    text-align: center;
+    border-bottom-left-radius: 4px;
+    border-top-left-radius: 4px;
+    margin-left: 5px;
+    background-color: #f3f3f3;
+    border: none;
+}
+.input{
+    height: 40px;
+    width: 620px;
+    padding-left: 10px;
+    font-size: 1rem;
+    border: none;
+}
+.glass-icon{
+    height: 40px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.3rem;
+    background-color: rgb(221, 150, 18);
+    border-bottom-right-radius: 4px;
+    border-top-right-radius: 4px;
+    border: none;
+    color: black;
+}
+.first{
+    font-size: 0.8rem;
+}
+.second{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 14px;
+    font-weight: 700;
+}
+.downbar{
+    background-color: #232F3E;
+    height: 38px;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+}
+.bar-one{
+    display: flex;
+    margin-left: 15px;
+}
+.all{
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.bar-two{
+    margin-left: 15px;
+    font-size: 14px;
+    font-weight: 600;
+}
+.herosection{
+    background-image: url(images/heroimage.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+}
+.hero-msg{
+    background-color: #f5f6f6;
+    font-size: 0.85rem;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 25px;
+    width: 95%;
+}
+.hero-msg a{
+    color: #2162A1;
+}
+.box-section{
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #FFEB70
+;
+}
+.box{
+    margin-bottom: 25px;
+    height: 400px;
+    width: 23%;
+    background-color: white;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.box:hover {
+    transform: translateY(-5px) scale(1.07);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+.box-image{
+    background-size: cover;
+    height: 300px;
+}
+.box-content{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.box-content h2{
+    margin-bottom: 15px;
+}
+.box-content p{
+    margin-top: 10px;
+    color: #2162A1;
+    font-size: 0.85rem;
+}
+.four-first{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 30px;
+}
+.four-second{
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 60px;
+}
+.four-first-first{
+    height: 100px;
+    width: 45%;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+.four-first-second{
+    height: 100px;
+    width: 45%;
+    background-size: cover;
+}
+.four-second-first{
+    height: 100px;
+    width: 45%;
+    background-size: cover;
+}
+.four-second-second{
+    height: 100px;
+    width: 45%;
+    background-size: cover;
+}
+.four-box{
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 20px;
+}
+.four-box h2{
+    margin-bottom: 15px;
+}
+.four-box p{
+    color: #2162A1;
+    font-size: 0.85rem;
+} 
+.long-box{
+    background-color: #FFEB70;
+    height: 350px;
+}
+.longboxinside{
+    background-color: white;
+    margin-left: 23px;
+    margin-right: 23px;
+    height: 300px;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+.photo{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.photobox{
+    background-size: cover;
+    height: 200px;
+    width: 220px;
+}
+.photobox:hover {
+    transform: translateY(-5px) scale(1.07);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+}
+.white-box{
+    background-color: white;
+}
+.whiteinside{
+    background-color: white;
+    margin-top: 40px;
+    margin-bottom: 25px;
+    border: 1px solid rgb(172, 171, 171);
+    padding: 30px 30px 30px 550px;
+}
+button{
+    background-color: yellow;
+    height: 30px;
+    width: 200px;
+    font-size: 13px;
+    border: transparent;
+    border-radius: 20px;
+    margin-top: 12px;
+    margin-left: 100px;
+}
+.white-box p{
+    margin-left: 120px;
+    margin-top:12px ;
+    font-size: 0.85rem;
+}
+.white-box a{
+    color: #2162A1;
+}
+button a{
+    color: black;
+    text-decoration: none;
+}
+.blue-box{
+    background-color: #39475A;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blue-box p{
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+}
+.footer {
+  background-color: #232F3E; /* Dark Blue */
+  color: #fff;
+  padding-top: 30px;
+}
+
+.footer-top {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 20px 0;
+  border-bottom: 1px solid #3a4553;
+  margin-left: 130px;
+}
+
+.footer-column {
+  flex: 1;
+  min-width: 200px;
+  padding: 10px;
+}
+
+.footer-column h4 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  color: #fff;
+}
+
+.footer-column a {
+  display: block;
+  color: #ddd;
+  text-decoration: none;
+  margin-bottom: 8px;
+  font-size: 14px;
+}
+
+.footer-column a:hover {
+  text-decoration: underline;
+}
+
+.footer-mid {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  border-bottom: 1px solid #3a4553;
+  background-color: #131A22;
+}
+
+.footer-mid .logo {
+  width: 100px;
+}
+
+.footer-buttons button {
+  background: transparent;
+  color: #ddd;
+  border: 1px solid #555;
+  padding: 5px 12px;
+  cursor: pointer;
+  font-size: 14px;
+  margin: 0 5px;
+}
+
+.footer-buttons button:hover {
+  border-color: #aaa;
+}
+
+.footer-bottom {
+  background-color: #131A22;
+  text-align: center;
+  padding: 15px;
+  font-size: 12px;
+  color: #888;
+}
